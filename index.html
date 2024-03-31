@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery life</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Icon-Battery.png" type="img.png">
+</head>
+<body>
+    <div class="container">
+        <div class="content-box">
+            <!-- Title -->
+            <h1>Battery Life Percentage</h1>
+            <!-- Inputs -->
+            <div class="input-container">
+                <div class="input-group">
+                    <label for="designCapacity">DESIGN CAPACITY -mWh-</label>
+                    <input type="number" id="designCapacity" placeholder="Enter design capacity">
+                </div>
+                <div class="input-group">
+                    <label for="fullChargeCapacity">FULL CHARGE CAPACITY -mWh-</label>
+                    <input type="number" id="fullChargeCapacity" placeholder="Enter full charge capacity">
+                </div>
+            </div>
+            <!-- Button -->
+            <button id="calculateBtn">CALCULATE</button>
+            <!-- Battery -->
+            <div class="battery-container">
+                <div class="battery">
+                    <div class="battery-inner"></div>
+                    <p id="batteryPercentage">0%</p>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="footer-container">
+                <p>By: DreamerCoffee</p>
+                <p>V: 1.0.1</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
